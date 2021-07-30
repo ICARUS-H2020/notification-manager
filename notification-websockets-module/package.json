@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-websockets-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodenv -E .env-prod server.js",
+    "start:dev": "nodenv -E .env-dev server.js",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/icarus-dev/notification-system-microservices/nodejs-websockets-module.git"
+  },
+  "author": "Andreou C. Andreas",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cookie": "^0.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jwt-decode": "^2.2.0",
+    "kafkajs": "^1.11.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "node-env-run": "^3.0.2",
+    "nodemon": "^1.19.4"
+  }
+}
